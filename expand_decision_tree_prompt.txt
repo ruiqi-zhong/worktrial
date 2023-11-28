@@ -1,0 +1,10 @@
+I am a machine learning researcher and currently building a classifier that can tell apart harmful and harmless input queries.
+I want to come up with a list of features that can help me improve the classifier. In this session, I will show you all existing features and some examples of misclassified examples, and your job is to come up with new feature descriptions such that using them can help us improve the classifier. 
+
+Here is the list of features we already have, where each line is a feature description surrounded by "<feature>" and "</feature>"
+{existing_feature_description_list}
+
+Here are some misclassified examples:
+{misclassified_queries_information}
+
+Now based on the misclassified examples list, generate a list of {n_features_per_prompt} new features different from the existing features to help us improve the accuracy on the misclassfied examples. Each feature be in a different line, starting with "<feature>" and ending with "</feature>".
